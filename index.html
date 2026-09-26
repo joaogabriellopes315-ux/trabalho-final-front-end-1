@@ -4,141 +4,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Café & Aroma</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- CABEÇALHO DO SITE -->
+    <!-- CABEÇALHO DO SITE (Pessoa 1) -->
     <header>
-
         <h1>Café & Aroma</h1>
-
         <!-- MENU DE NAVEGAÇÃO -->
         <nav>
-            <a href="#inicio">Início</a>
-            <a href="#cardapio">Cardápio</a>
-            <a href="#sobre">Sobre Nós</a>
-            <a href="#contato">Contato</a>
+            <a href="#inicio">Início</a> <!-- Link Âncora -->
+            <a href="#cardapio">Cardápio</a> <!-- Link Âncora -->
+            <a href="contato.html">Contato</a> <!-- Link Interno (Exigência do Professor) -->
         </nav>
-
     </header>
-
 
     <!-- CONTEÚDO PRINCIPAL -->
     <main>
 
         <!-- SEÇÃO INICIAL -->
         <section id="inicio">
-
             <h2>Bem-vindo ao Café & Aroma</h2>
-
-            <p>
-                Um lugar especial para apreciar bons cafés,
-                deliciosos acompanhamentos e momentos especiais.
-            </p>
-
+            <p>Um lugar especial para apreciar bons cafés, deliciosos acompanhamentos e momentos especiais.</p>
+            <ul class="diferenciais">
+                <li>Cafés especiais preparados com grãos selecionados</li>
+                <li>Ambiente ideal para estudos e desenvolvimento de projetos</li>
+                <li>Wi‑Fi gratuito para clientes</li>
+                <li>Espaço confortável e acolhedor</li>
+            </ul>
         </section>
 
-
-        <!-- ÁREA DA PESSOA 2 -->
+        <!-- ÁREA DA PESSOA 2 (Textos, Imagens e Listas) -->
         <section id="sobre">
-
             <h2>Sobre o Café & Aroma</h2>
-
+            
             <article>
-
                 <h3>Um espaço para apreciar bons momentos</h3>
-
-                <p>
-                    O Café & Aroma é um espaço pensado para quem
-                    gosta de café, boa comida e momentos agradáveis.
-                </p>
-
+                <p>O Café & Aroma é um espaço pensado para quem gosta de café, boa comida e momentos agradáveis.</p>
+                <p>Mais que uma cafeteria: um lugar para relaxar, encontrar inspiração e desenvolver seus projetos com tranquilidade.☕💡</p>
+                <p>Trabalhamos com <strong>cafés especiais</strong>, preparados com ingredientes selecionados para proporcionar uma experiência única aos nossos clientes.</p>
             </article>
 
-            <!--
-                A PESSOA 2 PODE ADICIONAR AQUI:
-                - Imagens
-                - Mais textos
-                - Lista de produtos
-                - Lista de características
-            -->
+            <h3>Nosso Ambiente</h3>
+            <figure>
+                <img class="espaco" src="imagem/interior.jpg" alt="Ambiente interno para nossos clientes.">
+                <figcaption>Ambiente aconchegante, preparado especialmente para você.</figcaption>
+            </figure>
 
+            <h3>Produtos Mais Procurados</h3>
+            <ul>
+                <li>Café especial</li>
+                <li>Capuccino</li>
+                <li>Chocolate Quente</li>
+                <li>Pão de Queijo</li>
+            </ul>
+
+            <h3>Como Preparar Seu Pedido</h3>
+            <ol>
+                <li>Escolha o produto desejado</li>
+                <li>Realize o pagamento</li>
+                <li>Aguarde a preparação</li>
+                <li>Retire seu pedido</li>
+            </ol>
+
+            <figure>
+                <img class="cafe" src="imagem/Designer.png" alt="Xícara de café especial GP BOYS">
+                <figcaption>Este é o nosso café especial GP BOYS, preparado com grãos selecionados para proporcionar sabor, energia e inspiração em cada xícara.</figcaption>
+            </figure>
         </section>
 
-
-        <!-- ÁREA DO CARDÁPIO -->
+        <!-- ==========================================
+             ÁREA DA PESSOA 3 (Você faz daqui pra baixo!)
+             ========================================== -->
+        
+        <!-- ÁREA DO CARDÁPIO (Tabela) -->
         <section id="cardapio">
-
             <h2>Nosso Cardápio</h2>
-
-            <!--
-                A PESSOA 3 PODE ADICIONAR AQUI:
-                - Tabela do cardápio
-                - Produtos
-                - Preços
-                - Outras informações
-            -->
-
-            <p>
-                Confira algumas das opções disponíveis
-                no Café & Aroma.
-            </p>
-
+            <p>Confira algumas das opções disponíveis no Café & Aroma.</p>
+            
+            <!-- Tabela exigida pelo professor -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Tamanho</th>
+                        <th>Preço (R$)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Café GP BOYS</td>
+                        <td>Pequeno</td>
+                        <td>R$ 7,50</td>
+                    </tr>
+                    <tr>
+                        <td>Capuccino Tradicional</td>
+                        <td>Médio</td>
+                        <td>R$ 10,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pão de Queijo Recheado</td>
+                        <td>Único</td>
+                        <td>R$ 6,00</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
-
-        <!-- CONTEÚDO RELACIONADO -->
+        <!-- CONTEÚDO RELACIONADO (Aside) -->
         <aside>
-
             <h2>Você também pode gostar</h2>
-
-            <p>
-                Além dos cafés, temos acompanhamentos
-                para deixar sua experiência ainda melhor.
-            </p>
-
+            <p>Além dos cafés, temos acompanhamentos para deixar sua experiência ainda melhor.</p>
+            <p>Seja para uma pausa durante o dia, uma reunião entre amigos ou o desenvolvimento de novas ideias, o Café & Aroma está pronto para tornar sua experiência especial.</p>
         </aside>
 
-
-        <!-- SEÇÃO DE CONTATO -->
+        <!-- SEÇÃO DE CONTATO COM LINK EXTERNO -->
         <section id="contato">
-
-            <h2>Contato</h2>
-
-            <p>
-                Entre em contato conosco para saber mais
-                sobre nossos produtos e serviços.
-            </p>
-
-            <!--
-                Aqui poderão ser adicionados:
-                - Link externo
-                - Redes sociais
-                - Informações de contato
-            -->
-
+            <h2>Siga nossas Redes</h2>
+            <p>Acompanhe nossas novidades e veja fotos do nosso espaço!</p>
+            <!-- Link Externo (Exigência do Professor) -->
+            <p><a href="https://instagram.com" target="_blank">Acesse nosso Instagram Oficial</a></p>
         </section>
 
     </main>
 
-
     <!-- RODAPÉ -->
     <footer>
-
         <p>
-            &copy; 2026 Café & Aroma - Todos os direitos reservados 
-            João Gabriel Lopes Reis,
-            Estevão Henrique Coelho,
-            Natan Carvalho Vieira.
+            &copy; 2026 Café & Aroma - Todos os direitos reservados. <br>
+            Desenvolvido por: João Gabriel Lopes Reis, Estevão Henrique Coelho e Natan Carvalho Vieira.
         </p>
-
     </footer>
 
 </body>
-
 </html>
